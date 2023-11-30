@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="#GoT]_`Bx$S,il1-{|dm">mano</variable></variables><block type="device_gesture_event" id="=}8zAU:HUqIUsyR{OKqp" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="{rw_r7BEMa`}hkCAD@~+"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="6r}]UfL?7COjg[zl.?%x"><value name="pause"><shadow type="timePicker" id="UG`@We]j1Yi7OqGudsl8"><field name="ms">2000</field></shadow></value><next><block type="variables_set" id="64WA%3x5kqUIDTg$94em"><field name="VAR" id="#GoT]_`Bx$S,il1-{|dm">mano</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="somJ)USJb*u0_glEXXor"><value name="min"><shadow type="math_number" id="|Ccp}ibe)||2?t*E:bZO"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="0Q$tZb^^##[cu=@n4/Cv"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="^0)GVT;war[5A?*~sDe3"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="#lE/yF}suDN=w2yz)*,3"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=":dEN$Au36w(DtMD4)3N+"><field name="VAR" id="#GoT]_`Bx$S,il1-{|dm">mano</field></block></value><value name="B"><shadow type="math_number" id="Lv=)@HX-9r8Be|B!LjOU"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="u)mpO_.Af?:J;Z$wSW6m"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        # # . # # 
+        # # . # #
+        `</field></block></statement><next><block type="controls_if" id="*g2ZgBi*!Oo3Hs^;*c~Z"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="%P-suI?ML$,(B,aPo_C]"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="-4%3lzh3e7`a#%3kZtq9"><field name="VAR" id="#GoT]_`Bx$S,il1-{|dm">mano</field></block></value><value name="B"><shadow type="math_number" id="I4`Rey#!];7[bwU!=$@S"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="~ScIA:RnOeobgg12KFg4"><field name="LEDS">`
+        # # # . . 
+        # . . # . 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><next><block type="controls_if" id="t9WR-4r}nEQ,CnvjtFx!"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="5f=?|SV7PwLvAT#lw{b("><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="aKQUi~-M+;TFq|7Mp.zF"><field name="VAR" id="#GoT]_`Bx$S,il1-{|dm">mano</field></block></value><value name="B"><shadow type="math_number" id="XgxkeHWVI[`%G8Dnp#mA"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="^a0Bx[*N0U#RGq7D1D-;"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_show_leds" id="2_=$a,5]V4GC46WB32sl" disabled="true" x="1060" y="560"><field name="LEDS">`
+        # # # . . 
+        # . # # . 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block><block type="device_show_leds" id="h{H[oXD4665eAKT)i5/D" disabled="true" x="713" y="650"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        # # . # # 
+        # # . # #
+        `</field></block></xml>
